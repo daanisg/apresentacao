@@ -1,27 +1,40 @@
 body{
-    background-image: url(background1.jpg);
+    background-image: url(imagem.jpg);
     background-size: cover;
 }
 
 .texto{
-    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.200));
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
     text-align: center; 
+    color: #fff;
+    text-shadow:
+        0 0 7px #0000CD,
+        0 0 10px #0000CD,
+        0 0 21px #0000CD,
+        0 0 42px #000,
+        0 0 82px #000,
+        0 0 92px #000,
+        0 0 102px #000,
+        0 0 151px #000;
 }
 .btn{
-    border: none;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color:red;
-    outline: none;
-    color:white;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
 }
 .login{
     text-align: center;
-   background-image: url(background1.jpg);
+   background-image: url(background2.jpg);
     background-size: cover;
     padding: 30px 60px;
     display: flex;
     justify-content: space-between;
 }
+.inscreva{
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+
+}
+
